@@ -1,4 +1,6 @@
-for i in range(1, 501):
+N = int(input('Type a number: '))
+
+for i in range(1, N):
     if i % 3 == 0 and i % 5 == 0:
         i = 'FizzBuzz'
     
@@ -7,4 +9,5 @@ for i in range(1, 501):
     
     elif i % 5 == 0:
         i = 'Buzz'
+    
     print(i)
