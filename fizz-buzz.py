@@ -1,7 +1,7 @@
 N = int(input('Type a number: '))
 
 for i in range(1, N):
-    if i % 3 == 0 and i % 5 == 0:
+    if i % 15 == 0:
         i = 'FizzBuzz'
     
     elif i % 3 == 0:
